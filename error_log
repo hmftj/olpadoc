@@ -1,0 +1,5 @@
+[23-Jul-2020 12:17:16 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'sunsecurities.pk' (-2) in /home/sunsecur/public_html/olpadoc/hms/include/config.php on line 6
+[23-Jul-2020 12:17:20 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'sunsecurities.pk' (-2) in /home/sunsecur/public_html/olpadoc/hms/include/config.php on line 6
+[23-Jul-2020 12:17:20 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'sunsecurities.pk' (-2) in /home/sunsecur/public_html/olpadoc/hms/include/config.php on line 6
+[23-Jul-2020 12:17:20 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'sunsecurities.pk' (-2) in /home/sunsecur/public_html/olpadoc/hms/include/config.php on line 6
+[23-Jul-2020 12:18:19 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'sunsecurities.pk' (-2) in /home/sunsecur/public_html/olpadoc/hms/include/config.php on line 6

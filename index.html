@@ -1,0 +1,308 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>OLPADOC</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/responsiveslides.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
+		  <script>
+		    // You can also use "$(window).load(function() {"
+			    $(function () {
+			
+			      // Slideshow 1
+			      $("#slider1").responsiveSlides({
+			        maxwidth: 1600,
+			        speed: 600
+			      });
+			});
+		
+		
+		
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		  </script>
+		  
+		  
+		  
+		  
+		  
+		  
+	
+		  
+		  
+		  
+		  
+		  
+	</head>
+	<body>
+		<!--start-wrap-->
+		
+			<!--start-header-->
+			<div class="header">
+				<div class="wrap">
+				<!--start-logo-->
+				<div class="logo">
+					<a href="index.html" style="font-size:30px;">OLPADOC</a>
+				</div>
+				<!--end-logo-->
+				<!--start-top-nav-->
+				<div class="top-nav">
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						
+						<li><a href="contact.php">contact</a></li>
+					</ul>					
+				</div>
+				<div class="clear"> </div>
+				<!--end-top-nav-->
+			</div>
+			<!--end-header-->
+		</div>
+		<div class="clear"> </div>
+		
+		
+		
+				
+		<style>
+#nav > ul {
+    margin: 0;
+    display:block
+}
+#nav > ul > li {
+    position: relative;
+    display: inline-block;
+    margin-left: 1em;
+}
+#nav > ul > li a {
+    color: #c0c0c0;
+    text-decoration: none;
+    border: 0;
+    display: block;
+    padding:1.05em 0.5em;
+}
+#nav > ul > li:first-child {
+    margin-left: 0;
+}
+#nav > ul > li:hover a {
+    color: #fff;
+}
+#nav > ul > li.current {
+    font-weight: 600;
+}
+#nav > ul > li.present {
+    font-weight: 600;
+}
+#nav > ul > li.present:before {
+    -moz-transform: rotateZ(45deg);
+    -webkit-transform: rotateZ(45deg);
+    -ms-transform: rotateZ(45deg);
+    transform: rotateZ(45deg);
+    width: 0.75em;
+    height: 0.75em;
+    content:'';
+    display: block;
+    position: absolute;
+    bottom: -0.5em;
+    left: 50%;
+    margin-left: -0.375em;
+    background-color: #37c0fb;
+}
+#nav > ul > li.present a {
+    color: #fff;
+}
+#nav > ul > li.active a {
+    color: #fff;
+}
+#nav > ul > li.active.present:before {
+    opacity: 0;
+}
+#nav {
+    cursor: default;
+    background-color: #333;
+    padding: 0;
+    text-align: center;
+}
+#nav:after {
+    content:'';
+    display: block;
+    width: 100%;
+    height: 0.75em;
+    background-color: #37c0fb;
+}
+#nav-toggle {
+    display:none;
+    background-color: #333;
+    cursor: pointer;
+}
+#nav-toggle > a {
+    float:left;
+    color:#fff;
+    padding:10px;
+    width: 26px;
+}
+#nav-toggle > a > span {
+    width:26px;
+    height:2px;
+    background-color:#fff;
+    display:block;
+}
+#nav-toggle > a > span + span {
+    margin-top:4px;
+}
+.menu-caption {
+    display:inline-block;
+    color:#fff;
+    padding:10px;
+}
+@media screen and (max-width:767px) {
+    #nav-toggle {
+        display:block;
+    }
+    #nav > ul {
+        display:none;
+    }
+    #nav > ul > li {
+        display: block;
+    }
+}</style><script type="javascript/text">
+var windowWidth = $(window).width();
+
+$("#nav-toggle").click(function () {
+    $("#nav ul").slideToggle();
+    $("#nav ul").toggleClass("open");
+});
+
+$(window).resize(function () {
+    windowWidth = $(window).width();
+    if (windowWidth > 767) {
+        if ($("#nav ul").is(":hidden")) {
+            $("#nav ul").css("display","block");
+        }
+    }
+    else {
+        $("#nav ul").css("display","none");
+    }
+});</script>		
+		<div id="nav-toggle"> <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+
+    <div class="menu-caption">Menu</div>
+</div>
+<div id="nav">
+		<!---ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						
+						<li><a href="contact.php">contact</a></li>
+					</ul-->	
+    </div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			<!--start-image-slider-->
+					<div class="image-slider">
+						<!-- Slideshow 1 -->
+					    <ul class="rslides" id="slider1">
+					      <li><img src="images/slider-image2.jpg" alt="Pateint"/></li>
+					      <li><img src="images/slider-image1.jpg" alt="doctor"/></li>
+					      <li><img src="images/slider-image3.jpg" alt="admin"/></li>
+					    </ul>
+						 <!-- Slideshow 2 -->
+					</div>
+					<!--End-image-slider-->
+		    <div class="clear"> </div>
+		    <div class="content-grids">
+		    	<div class="wrap">
+		    	<div class="section group">
+								
+							
+				<div class="listview_1_of_3 images_1_of_3">	<a href="hms/user-login.php">
+					<div class="listimg listimg_1_of_2">
+						  <img src="images/grid-img3.png">
+					</div>
+					<div class="text list_1_of_2"><br/>
+					  <h3>Patients</h3>
+						  <p></p>
+						  <div class="button"><span></span></div>
+				   </div>
+			 </a>	</div>	
+
+				<div class="listview_1_of_3 images_1_of_3">	<a href="hms/doctor/">
+					<div class="listimg listimg_1_of_2">
+						  <img src="images/grid-img1.png">
+					</div>
+					<div class="text list_1_of_2"><br/>
+					  <h3>Doctors</h3>
+						
+						  <div class="button"><span></span></div>
+			      	</div>
+				</a>	</div>
+
+
+					<div class="listview_1_of_3 images_1_of_3"> <a href="hms/admin">
+					<div class="listimg listimg_1_of_2">
+						  <img src="images/grid-img2.png">
+					</div>
+					<div class="text list_1_of_2"><br/>
+						 <h3>Admin Login</h3>
+						
+						  <div class="button"><span></span></div>
+				     </div>
+			</a>	</div>			
+			</div>
+		    </div>
+		   </div>
+
+		   <div class="clear"> </div>
+		   <div class="footer">
+		   	 <div class="wrap">
+		   	<div class="footer-left">
+		   			<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="contact.php">contact</a></li>
+						
+					</ul>
+					
+				<a href="https://sunsecurities.pk/olpadoc/olpadoc.apk">	<img align="right" src="images/pls.png" width="45%"/></a>
+		   	</div>
+		   
+		   	<div class="clear"> </div>
+		   </div>
+		   </div>
+		<!--end-wrap-->
+
+	
+		
+		
+		
+	</body>
+</html>
+
